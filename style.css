@@ -1,0 +1,21 @@
+h1, h2, h3, h4, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgrey;
+    text-align: center;
+}
+
+div {
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: lightgrey;
+    margin: 8px;
+}
+
+#flex-container {
+    display: flex;
+    padding: 8px;
+}
+
+.flex-child {
+    flex: 1;
+}
