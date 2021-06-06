@@ -1,21 +1,74 @@
-h1, h2, h3, h4, p {
+body {
+    --off-white: #eeeeee;
+    --gray: #acb7c1;
+    --blue-gray: #6d7f9f;
+    --darkblue: #3b436b;
+    --blue-black: #211d2f;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--off-white);
+    color: var(--blue-black);
+}
+
+h1, h2, h3, h4, p, th, td {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: lightgrey;
-    text-align: center;
+}
+
+table, tr, th, td {
+    border: 1px solid var(--blue-black);
+    border-collapse: collapse;
 }
 
 div {
-    border: 1px solid grey;
+    /*border: 1px solid grey;
     border-radius: 4px;
-    background-color: lightgrey;
+    background-color: lightgrey;*/
     margin: 8px;
 }
 
-#flex-container {
-    display: flex;
+.nostyle {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgroundDiv {
+    width: calc(100%-16px);
     padding: 8px;
 }
 
-.flex-child {
-    flex: 1;
+#popular {
+    background-color: var(--gray);
+    overflow-x: scroll;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+#byCrafter {
+    background-color: var(--blue-gray);
+}
+
+#byCrafterSidebar {
+    position: relative;
+    left: -8px;
+    background-color: var(--off-white);
+    border: 1px solid var(--blue-black);
+}
+
+.videoDiv {
+    border: 2px solid var(--darkblue);
+    border-radius: 8px;
+    background-color: var(--off-white);
+    width: 20vw;
+    height: calc(20vw*0.5625);
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
