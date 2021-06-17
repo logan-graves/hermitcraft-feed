@@ -5,7 +5,7 @@ Uses Invidious APIS to build a feed of all hermitcraft episodes.
 Hermitcraft is a popular Minecraft video series. Multiple Minecraft video creators, some with subscriber numbers in the millions, play together, and each creator posts their own perspective, mostly on a weekly-biweekly basis. It's great in many ways, but the problem with this system is that it's difficult and/or tedious to sort through and find what you want. Oh, and YouTube invades your privacy. 
 
 ## Function
-This site provides multiple different ways to sort the Hermitcraft series, using [APIs](https://docs.invidious.io/API.md) from the [invidious](https://github.com/iv-org/invidious) project. Invidious is an alternate front-end for YouTube, focused on privacy. 
+This site provides multiple different ways to sort the Hermitcraft series, using [APIs](https://docs.invidious.io/API.md) from the [invidious](https://github.com/iv-org/Invidious) project. Invidious is an alternate front-end for YouTube, focused on privacy. 
 
 Thus, this site provides a more-private and more elegant way to view Hermitcraft episodes.
 
